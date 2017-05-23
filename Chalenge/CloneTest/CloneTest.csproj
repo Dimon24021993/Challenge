@@ -48,11 +48,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Clonable\Clonable.csproj">
+    <ProjectReference Include="..\Clonable\Task1.csproj">
       <Project>{5f31582e-2882-44f2-8236-6d176b5712ec}</Project>
-      <Name>Clonable</Name>
+      <Name>Task1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task5\Task5.csproj">
+      <Project>{f50c2afa-daeb-46d8-93c6-28d2937b385b}</Project>
+      <Name>Task5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task6\Task6.csproj">
+      <Project>{17a730f5-4966-4eaf-b5f1-d45f8544f881}</Project>
+      <Name>Task6</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
